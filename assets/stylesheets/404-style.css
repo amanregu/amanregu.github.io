@@ -1,0 +1,179 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.para {
+  font-size: 1rem;
+  color: #51585f;
+  Letter-spacing: 1px;
+  line-height: 1.9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400; }
+
+.btn {
+  cursor: pointer;
+  padding: 14px 26px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  background-color: #05b993;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  line-height: 1.5;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+.h1 {
+  Font-size: 4rem;
+  Font-weight: 600; }
+
+.h2 {
+  font-size: 1.8rem;
+  color: #000;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  box-sizing: border-box; }
+
+.h3 {
+  font-size: 2.1rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #000;
+  box-sizing: border-box; }
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px; }
+
+.container {
+  text-align: center;
+  padding-top: 3rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  margin-left: 7rem;
+  margin-right: 7rem; }
+
+.h1 {
+  font-size: 2rem;
+  font-size: 700; }
+
+.container .hero {
+  max-width: 50rem;
+  margin: 0 auto; }
+  .container .hero .heading .heading-text {
+    margin-bottom: 4rem; }
+  .container .hero .hero-text {
+    margin-bottom: 4rem; }
+    .container .hero .hero-text .hero-text-h1 {
+      margin-bottom: 1.5rem; }
+    .container .hero .hero-text .hero-text-para {
+      font-size: 1rem; }
+    .container .hero .hero-text .hero-text-btn {
+      margin-top: 3rem; }
+.container .subscribe {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid; }
+  .container .subscribe .container .subscribe-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 7rem;
+    width: 60%;
+    margin: 0 auto; }
+    .container .subscribe .container .subscribe-wrapper .subscribe-logo {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      width: 5rem;
+      height: 5rem;
+      background-color: #05b993;
+      margin-bottom: 1.5rem; }
+    .container .subscribe .container .subscribe-wrapper .subscribe-text .subscribe-h1 {
+      margin-bottom: 1.5rem; }
+    .container .subscribe .container .subscribe-wrapper .subscribe-text .input-div {
+      display: flex;
+      margin-top: 4rem; }
+      .container .subscribe .container .subscribe-wrapper .subscribe-text .input-div .subscribe-input {
+        width: 70%; }
+      .container .subscribe .container .subscribe-wrapper .subscribe-text .input-div .subscribe-btn {
+        width: 30%;
+        padding: 1rem 6rem;
+        background-color: #705ecf;
+        border: none; }
+.container .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0 2rem 0;
+  background-color: #f8f9fa; }
+  .container .footer .social-icons {
+    width: 10rem; }
+    .container .footer .social-icons ul li {
+      display: inline-block;
+      margin-right: .5rem; }
+.errorimgcontainer {
+  text-align: center;
+}
+.errorimgcontainer p {
+  text-align: center !important;
+}
+@media screen and (max-width: 1000px) {
+.img404container img {
+  width: 100%;
+}
+}
+
+
+/*# sourceMappingURL=404-style.css.map */

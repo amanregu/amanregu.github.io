@@ -1,0 +1,51 @@
+.Para{
+  Font-size: 1rem;
+  color:#51585f;
+  Letter-spacing: 1px;
+  Line-height:1.9;
+  Font-family: “poppins” sans-serif;
+  font-weight: 400;
+}
+.btn{
+  cursor: pointer;
+  padding: 14px 26px;
+  border:none;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  background-color: #05b993;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  line-height: 1.5;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.h1{
+  Font-size:   4rem;
+  Font-weight: 600;
+}
+.h2{
+  font-size: 1.8rem;
+  color: #000;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  box-sizing: border-box;
+}
+.h3{
+  font-size: 2.1rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #000;
+  box-sizing: border-box;
+}
+.wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
